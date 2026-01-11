@@ -1,0 +1,7 @@
+.netlify
+.env
+venv/
+database/
+practice/
+
+src/static/tour/tiles/
