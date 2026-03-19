@@ -91,7 +91,7 @@ def search_kis_database(query: str) -> str:
 # Navigation with descriptions
 LOCATION_MAP = {
     "bus_stop": {
-        "node_id": "node11",
+        "node_id": "node104",
         "description": "The main bus stop where students are dropped off and picked up. It's located at the front entrance of the school campus."
     },
     "hs_lobby": {
