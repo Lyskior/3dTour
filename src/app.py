@@ -15,7 +15,11 @@ def home():
 @app.route("/chat")
 def chat():
     return render_template("chat.html")
+from flask import Flask, jsonify, render_template, request, send_from_directory
 
+@app.route('/images/<path:filename>')
+def serve_tour_images(filename):
+    return send_from_directory('static/tour/images', filename)
 # dynamic
 # API endpoint returns JSON
 @app.route("/api/greet")
